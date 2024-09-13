@@ -1,0 +1,159 @@
+@import url("root.css");
+
+.top-header{
+    background: #312d2d;
+    width: 100%;
+    justify-content: space-around;
+    Color: var(--secondary-color);
+    font-size: 16px;
+    height: 45px;
+    align-items: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.color-red{
+    color: var(--danger);
+}
+
+.summer a:hover{
+ text-decoration: none;
+}
+
+.support {
+    gap:20px;
+}
+.summer{
+    width:40%;
+    text-align: center;
+}
+.main-bannerb{
+ position: relative;
+ margin:0;
+ width:100%;
+ overflow: hidden;
+}
+.main-bannerb img{
+    width: 100%;
+}
+
+.about{
+    position:absolute;
+    top: 63px;
+   left:15px;
+    width: 100%;
+    text-align: center;
+    font-size: 209%;
+}
+
+.home{
+    position:absolute;
+    top: 63%;
+    left: 47%;
+    
+}
+
+
+.main-section{
+    width:80%;
+    margin: auto;
+    display: flex;
+}
+.left-sec{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.left-sec img{
+    width: 100%;
+}
+
+.new{
+    font-size: 22px;
+}
+.left-img img{
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+.product-details{
+    margin: 26px 15px;
+}
+
+.price{
+    font-weight:600;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.anchor{
+    text-align: right;
+    padding-bottom: 20px;
+    color: var( --danger);
+    border-bottom: .5px solid rgb(71, 63, 63);
+
+}
+.anchor a:hover{
+    text-decoration: none;
+    color:var( --danger);
+    transition: 1s;
+}
+.blog{
+    margin: 34px 0 14px;
+    font-size: 25px;
+}
+.shopping{
+    font-size: 16px;
+    text-align: center;
+    width:20%;
+}
+
+.left-side{
+    width: 20%;
+  
+}
+.digital{
+    padding-left: 19px;
+}
+
+.digital li{
+    padding-bottom: 10px;
+}
+
+.right-side{
+    width: 80%;
+   
+    flex: 1 1 0;
+    margin:20px;
+}
+.portfolio{
+    padding-right: 20px;
+    width: 33%;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.about-us h2{
+    width:100%;
+    margin:30px 0 5px 0;
+}
+
+.portfolio h4{
+    margin: 0;
+}
+
+.portfolio p{
+    margin: 4px 0 7px 0;
+}
+
+.lorem{
+    font-family: cursive;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+.strikethrough {
+    text-decoration: line-through;
+    color:var( --danger);
+}

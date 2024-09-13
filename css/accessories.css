@@ -1,0 +1,579 @@
+
+@import url("root.css");
+
+
+.top-header {
+  width: 100%;
+  font-size: 16px;
+  height: 45px;
+}
+
+.acessories-sub-title {
+  margin-left: 28px;
+  display: flex;
+  gap: 17px;
+}
+
+.filter-buttons {
+  width: 65%;
+}
+
+.supporta {
+  gap: 20px;
+}
+
+.menu-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: var(--primery-background);
+  justify-content: space-around;
+  box-shadow: 0px 5px 12px rgb(143, 141, 141);
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  gap: 60px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--primery-color);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: jost, Arial, Helvetica, sans-serif;
+}
+
+.signs i {
+  font-size: 18px;
+}
+
+.signs ul {
+  display: flex;
+  gap: 15px;
+}
+
+.signs li {
+  list-style: none;
+}
+
+.first-bannerb {
+  position: relative;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.first-bannerb img {
+  width: 100%;
+}
+
+.accessories-title {
+  position: absolute;
+  top: 16%;
+  left: 43%;
+  font-size: 24px;
+}
+
+.accessories-title h1 {
+  margin-bottom: 12px;
+}
+
+
+
+.accessories-container {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+.left-column {
+  width: 20%;
+  padding: 0px 20px;
+}
+
+.round-button {
+  border-radius: 50%;
+  color: var(--secondary-color);
+  text-align: center;
+  border: none;
+  background: var(--danger);
+  display: inline-block;
+  padding: 4px 7px;
+  font-size: 11px;
+}
+
+.right-column {
+  width: 80%;
+  padding-left: 12px;
+}
+
+.sub-titles {
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.anchor {
+  text-align: right;
+
+}
+
+.anchor a {
+  text-align: right;
+  color: var(--danger);
+}
+
+.digital {
+  padding: 8px 22px;
+  margin-top: 8px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkmark {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price {
+  font-family: 'FontAwesome';
+}
+
+.custom-checkbox {
+  padding-bottom: 15px;
+}
+
+.product-detail {
+  margin: 35px 9px 0;
+}
+
+.Showcase {
+  padding-bottom: 12px;
+}
+
+.sub-banners {
+  padding-bottom: 20px;
+}
+
+.pic img {
+  width: 100%;
+}
+
+.descriptiond {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.colors {
+  border-radius: 50%;
+  color: var(--secondary-color);
+  text-align: center;
+  border: none;
+  background: grey;
+  display: inline-block;
+  padding: 9px 9px;
+  font-size: 11px;
+  margin: 0px 6px 5px 0px;
+}
+
+.filter {
+  font-size: 17px;
+  padding: 10px 0px 0 0;
+  align-items: baseline;
+}
+
+input[type="radio"] {
+  margin-left: 0;
+}
+
+.sort-by {
+  font-size: 21px;
+  padding: 13px 9px 0 0;
+  font-family: arial;
+}
+
+.sort-by i {
+  margin: 4px;
+}
+
+.activ {
+  font-size: 25px;
+  padding: 20px 0px 20px 0;
+  width: 100%;
+}
+
+.activ label {
+  text-align: end;
+}
+
+.product-Container {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 49px;
+  position: relative;
+}
+
+.not-active {
+  display: none;
+}
+
+.product-banner:hover .active {
+  display: none;
+  transition: 2.5s;
+}
+
+.product-banner:hover .not-active {
+  display: block;
+  transition: 2.5s;
+}
+
+.product-banner {
+  width: 22%;
+  position: relative;
+
+}
+
+/* .information {
+  width: 100%;
+  background: var(--ternory-background);
+  padding: 5em 0;
+  margin: 10px 0px 0;
+
+} */
+
+.detail {
+  width: 90%;
+    margin: auto;
+    color: #666;
+    display: flex;
+    font-size: 17px;
+    padding: 7em 0;
+}
+
+input[type="radio"] {
+  margin-left: 0;
+}
+
+.sort-by {
+  font-size: 21px;
+  padding: 13px 9px 0 0;
+  font-family: arial;
+}
+
+.sort-by i {
+  margin: 4px;
+}
+
+.activ {
+  font-size: 22px;
+  padding: 20px 0px 20px 0;
+}
+
+.product-Container {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 49px;
+  position: relative;
+}
+
+.not-active {
+  display: none;
+}
+
+.product-banner:hover .active {
+  display: none;
+}
+
+.product-banner:hover .not-active {
+  display: block;
+}
+
+.product-banner {
+  width: 22%;
+}
+
+.information {
+  width: 100%;
+  background: var(--secondary-background);
+  margin: 10px 0px 0;
+}
+
+
+
+.Apparel {
+  list-style: none;
+  padding: 0 40px;
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #666;
+}
+
+.info {
+  color: var(--secondary-color);
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+.options {
+  width: 22%;
+  padding-left: 81px;
+}
+
+.options li {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.options i {
+  padding-right: 12px;
+  font-size: 17px;
+}
+
+.social i {
+  font-size: 15px;
+  background: var(--primery-background);
+  padding: 11px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.social ul {
+  gap: 10px;
+  padding: 0;
+}
+
+.social li:hover i {
+  color: var(--secondary-color);
+  background: var(--danger);
+}
+
+/* .sub {
+  padding: 15px;
+  margin: 20px 0;
+  width: 158px;
+  background: var(--danger);
+} */
+
+/* .whishlist-button {
+    position: absolute;
+    top: 0px;
+    left: 166px;
+    color: var(--danger);
+    right: 166px;
+    width: 42px;
+    opacity: 0;
+    font-size: 5px;
+} */
+
+
+
+.whishlist-buttonb i {
+  font-size: 20px;
+}
+
+/* .type {
+    color: var(--secondary-color);
+    background: rgb(41, 136, 41);
+    position: absolute;
+    border: none;
+    font-size: 16px;
+    padding: 6px 6px;
+    width: 66px;
+    opacity: 0;
+    left: 15px;
+} */
+
+.change {
+  top: 55px;
+}
+
+.product-banner img {
+  width: 100%;
+}
+
+.product-banner:hover .whishlist-buttonb {
+  /* width: 60px; */
+  right: 10px;
+  opacity: 1;
+  transition: 1.5s;
+
+}
+
+
+.whishlist-buttonb li:hover {
+  background: var(--danger);
+}
+
+.product-banner:hover .change {
+  display: block;
+  opacity: 1;
+  transition: 1.5s;
+}
+
+.offer {
+  color: var(--secondary-color);
+  background: var(--danger);
+  font-size: 16px;
+  padding: 6px;
+  width: 35px;
+}
+
+.offer-extra {
+  color: var(--secondary-color);
+  background: var(--danger);
+  position: absolute;
+  border: none;
+  font-size: 16px;
+  padding: 6px 6px;
+  width: 66px;
+  left: 15px;
+  top: 20px;
+}
+
+.Sold {
+  color: var(--secondary-color);
+  position: absolute;
+  border: none;
+  font-size: 16px;
+  padding: 6px 6px;
+  width: 83px;
+  top: 35px;
+  background: orange;
+  opacity: 0;
+}
+
+.product-banner:hover .Sold {
+  opacity: 1;
+  transition: 1.5s;
+  display: bock;
+}
+
+.form {
+  width: 41%;
+}
+
+.form select {
+  font-size: 21px;
+  padding: 11px;
+  width: 81%;
+  border: 1px solid;
+}
+
+.privacy {
+  text-align: center;
+  color: var(--secondary-color);
+  background: var(--ternory-background);
+  font-family: none;
+  padding: 14px;
+  font-size: 19px;
+  border-top: 1px solid;
+}
+
+.privacy a {
+  color: var(--secondary-color);
+}
+
+.privacy a:hover {
+  text-decoration: none;
+}
+
+
+@media (min-width: 480px) and (max-width: 665px) {
+  .privacy {
+    font-size: 10px;
+  }
+}
+
+.privacy {
+  text-align: center;
+  color: var(--secondary-color);
+  background: var(--ternory-background);
+  font-family: none;
+  padding: 14px;
+  font-size: 19px;
+  border-top: 1px solid;
+}
+
+.privacy a {
+  color: var(--secondary-color);
+}
+
+.privacy a:hover {
+  text-decoration: none;
+}
+
+.accept {
+  width: 73px;
+  padding: 7px;
+  margin-left: 9px;
+  font-family: revert;
+}
+
+.cookies {
+  font-size: 21px;
+}
+
+.sub {
+  padding: 15px;
+  margin: 20px 0;
+  width: 172px;
+  background: var(--danger);
+  color:var(--secondary-color);
+  font-size: 25px;
+}
+
+.whishlist-buttonb ul {
+  padding: 0;
+}
+
+.whishlist-buttonb {
+  position: absolute;
+  top: 5px;
+  opacity: 0;
+  color: var(--primery-color);
+  right: 0px;
+}
+
+.whishlist-buttonb li {
+  list-style: none;
+  padding: 12px;
+  background: var(--primery-background);
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.type-accessories {
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  font-size: 17px;
+}
+
+.change {
+  color: var(--secondary-color);
+  background: rgb(41, 136, 41);
+  padding: 4px 17px;
+  border: 0;
+  width: 0x;
+  opacity: 0;
+  margin-top: 7px;
+}
+
+.product-banner img {
+  width: 100%;
+}
