@@ -88,6 +88,46 @@ function red(){
 element=document.getElementsByClassName('top-header');
 element[0].innerHTML="<div>My name is Fakhar</div>";
 console.log(element)
+
+// element.document.getElementById("top")
+// element.style.addclassList=xyz;
+// console.log(element);
+
+element=document.getElementById("top");
+element.classList.add("abc,xyz");
+
+// // element.style
+// console.log(element)
+
+element=document.getElementById("top");
+// element.classList.length;
+// console.log(element.classList.length)
+
+element=document.getElementById("test");
+
+// let singleclass=classlist[1];
+// console.log(singleclass)
+element.classList.add("def","ghq");
+// element.classList.length;
+let classlist = element.classList;
+
+
+// element=document.getElementById("test");
+element.classList.remove("abc");
+element.classList = "rayyan"
+
+
+let innerHtml=element.innerHTML;
+let style=element.style
+let tagname="DIV"
+element.getAttributetes
+// let Attributes = elements.attriutes;
+// let attributes=element.getAttributeNames()
+
+// attributes.setAttribute("class","def")
+// console.log(attributes)
+
+
 // element.innerHTML;
 // element.classList;
 // element.anchorTag;
@@ -105,3 +145,6 @@ console.log(element)
 // element.innerHTML="<div>Where are you from</div>";
 // element.getAttribute;
 // element.setAttribute("name","address")
+
+element=document.getElementById("main").parentElement;
+console.log(element)
