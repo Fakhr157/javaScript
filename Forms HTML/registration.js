@@ -18,10 +18,9 @@ function onSubmit(event) {
     myData.urdu = document.getElementById("pushto").checked;
     myData.male = document.getElementById("male").checked;
     myData.female = document.getElementById("female").checked;
-
     myData.dropdown = document.getElementById("dropdown").value;
+    myData.comments = document.getElementById('comments').value.trim();
     console.log(myData);
-
 }
 
 function resetsss(){
@@ -30,6 +29,19 @@ function resetsss(){
     document.getElementById("address").value = "";
     document.getElementById("conatct").value = "";
     document.getElementById("email").value = "";
+}
+
+function togglePassword() {
+    const passwordField = document.getElementById('password');
+    const toggleButton = document.querySelector('.toggle-btn');
+
+    if (passwordField.type === 'password') {
+        passwordField.type = 'text'; 
+        toggleButton.innerText = 'Hide Password';
+    } else {
+        passwordField.type = 'password'; 
+        toggleButton.innerText = 'Show Password';
+    }
 }
 
 
