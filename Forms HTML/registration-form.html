@@ -43,10 +43,12 @@
                 </div>
                 <div class="mb-3">
                     <label>Password</label>
-                    <input class="show-password w-100 p-2" type="password" placeholder="Enter Password" id="password" required>
-                    <i class="fa-regular fa-eye"></i>
-                    <i class="toggle fa-solid fa-eye-slash"  onclick="togglePassword()"></i>
-                    <!-- <button type="button" class="toggle-btn" onclick="togglePassword()">Show Password</button> -->
+                    <div class="input-group">
+                        <input type="password" id="password" class="form-control" placeholder="Enter your password">
+                        <button class="btn btn-outline-secondary" type="button" onclick="togglePassword()" id="toggle-password">
+                            <i class="toggle fa-solid fa-eye-slash" id ="eye-slash"  ></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label>Confirm Password</label>
@@ -81,7 +83,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="mb-3">
                     <label>Gender</label>
                     <div class="mt-2">
@@ -110,6 +111,17 @@
                 </div>
             </div>
         </form>
+        <div class="mb-3">
+            <label for="numbers">Numbers</label>
+            <input class="p-2" type="numbers" placeholder="numbers" id="resultnumbers" >
+            <button onclick="testResults()" >Checked pass or fail</button>
+        </div>
+        <div class="mb-3">
+<label>Age</label>
+<input class="p-2" type="Age" placeholder="Enter your age" id="agecomparison" >
+<button onclick="agecomparison()">Adult or not</button>
+
+        </div>
     </div>
     <script src="registration.js"></script>
 </body>

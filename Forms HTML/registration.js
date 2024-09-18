@@ -33,15 +33,40 @@ function resetsss(){
 
 function togglePassword() {
     const passwordField = document.getElementById('password');
-    const toggleButton = document.querySelector('.toggle-btn');
-
+    const toggleButton = document.getElementById('eye-slash');
     if (passwordField.type === 'password') {
         passwordField.type = 'text'; 
-        toggleButton.innerText = 'Hide Password';
+       toggleButton.classList.add("fa-regular","fa-eye");
     } else {
         passwordField.type = 'password'; 
-        toggleButton.innerText = 'Show Password';
+       toggleButton.classList.remove("fa-regular","fa-eye");
+
     }
+}
+
+function testResults(){
+   let passingmarks = document.getElementById("resultnumbers").value;
+    console.log(passingmarks);
+
+    if (passingmarks>33){
+        console.log("pass")
+    }
+    else{
+        console.log("fail")
+    }
+}
+
+function agecomparison(){
+    let age = document.getElementById("agecomparison").value;
+    console.log("age");
+
+    if(age>18){
+    console.log("eligible to vote")
+    }else if(age<10){
+        console.log("baby Child")
+       
+    }else
+    console.log("young child")
 }
 
 
