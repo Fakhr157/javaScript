@@ -5,19 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-    <div id="myDIV" class="header">
-        <h2>My To Do List</h2>
-        <input type="text" id="firstname" placeholder="Title...">
-        <button onclick="todo()" class="addBtn">Add</button>
+    <div id="nameList" class="header">
+        <label>First Name</label>
+        <input type="text" id="firstname" placeholder="Firstname...">
+        <br><br>
+        <label>Last Name</label>
+        <input type="text" id="lastname" placeholder="Lastname...">
+        <br><br>
+        <label>Age</label>
+        <input type="number" id="age" placeholder="Age...">
+        <br><br>
+        <button onclick="addName()" class="addBtn">Add to lIst</button>
 
     </div>
 
-    <ul id="todo">
+    <ul id="nameList">
 
-        <li><span>Organize office</span></li>
+        <!-- <li><span>Organize office</span></li> -->
 
     </ul>
     <script src="./todo.js"></script>
