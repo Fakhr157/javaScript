@@ -20,12 +20,6 @@ element=document.getElementById("order").firstChildElement;
 // element = document.getElementById("women").children;
 // console.log(element)
 
-let firstchild = document.getElementById("women").firstElementChild;
- firstchild.style.background = "blue"
-// console.log(firstchild)
-
-let lastChildElement = document.getElementById("women").lastElementChild;
-// console.log(lastChildElement)
 
 element = document.getElementById("jacket").lastElementChild;
 // console.log(element)

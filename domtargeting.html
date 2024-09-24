@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html id="main" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clostich</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+</head>
+
+<body>
+    <button onclick="targetelementtag()">Target Element By Tag Name</button>
+    <button onclick="targetelementclass()">Target Element By class Name</button>
+    <button onclick="targetBody()">Target Document Body</button>
+    <button onclick="targetimages()">Target Document Images</button>
+    <button onclick="targeturl()">Target Document Urls</button>
+    <button onclick="targetlinks()">Target Document Links</button>
+    <!----------------------TOP HEADER SECTION -------------------------->
+    <div class="top-header">
+        <div class="support">
+            <i class="fa-regular fa-envelope"></i><span>Support</span>
+            <span>|</span>
+            <i class="fa-solid fa-globe"></i><span>Store Location</span>
+        </div>
+        <div class="season-offer">
+            <span class="offer-text">Summer Sale Season Up To 25% OFF -</span>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="language">
+          
+            <span>|</span>
+            <span>USD</span>
+        </div>
+    </div>
+    <!----------------------MENU SECTION -------------------------->
+    <div  class="p-r mb-view">
+        <button id="show" class="p-a show-buttons"><i class="fa-solid fa-bars"></i></button>
+        <nav class="d-flex menu-section align-items-enter w-100 b-primery justify-content-space-around position-sticky">
+            <button class="hide-button"><i id="hide" class="fa-solid fa-xmark"></i></button>
+            <span class="logo font-bold">
+                <a class="text-dec-none primery-color " href="#">Clostich</a>
+            </span>
+            <ul class="d-flex menu list-style-none">
+                <li><a class="text-dec-none primery-color" href="#">Fashion</a></li>
+                <li><a class="text-dec-none primery-color" href="accessories.html">Accessories</a></li>
+                <li><a class="text-dec-none primery-color" href="#">Contact Us</a></li>
+                <li><a class="text-dec-none primery-color" href="about-us.html">About Us</a></li>
+                <li><a class="text-dec-none primery-color" href="#">All Brands</a></li>
+                <li><a class="text-dec-none primery-color" href="#">Blog</a></li>
+            </ul>
+            <ul class="d-flex signs">
+                <li class="l-s-none"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="l-s-none"><i class="fa-regular fa-user"></i></li>
+                <li class="l-s-none"><i class="fa-regular fa-heart"></i></li>
+                <li class="l-s-none"><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                <li class="l-s-none">$ 0.00</li>
+            </ul>
+        </nav>
+    </div>
+    <!----------------------/MENU SECTION -------------------------->
+    <!-- ------------------------first-banner-------------------- -->
+    <div id="section" class="p-r first-banner">
+        <div class="p-a blouson">
+            100% Original Products
+            <div class="peach">Peach Color Up Neck<br>
+                Blouson Top</div>
+                This Month From <span>$59.00</span><br>
+                <button class="shop">Shop Now</button>
+        </div>
+    </div>
+    <!-- ------------------------/first-banner-------------------- -->
+    <div class="main-container w-90 over-flow-hidden">
+        <!-- --------------------Service Container----------------- ------>
+        <div class="d-flex justify-content-space-between services-container w-100 primery-color">
+            <div class="service w-20 text-center">
+                <div class="service-icon fs-30px mb-10px">
+                    <i class="fa-solid fa-box"></i>
+                </div>
+                <div class="service-content">
+                    <div class="service-title p-5px font-bold">Free Shipping
+                    </div>
+                    <p class="service-desc m-0">Orders from all item</p>
+                </div>
+            </div>
+            <div class="service w-20 text-center">
+                <div class="service-icon fs-30px mb-10px">
+                    <i class="fa-sharp fa-solid fa-newspaper"></i>
+                </div>
+                <div id="Flaxable" class="service-content">
+                    <div class="service-title p-5px font-bold">Flexible Payment
+                    </div>
+                    <p class="service-desc m-0">Pay with multiple cards.</p>
+                </div>
+            </div>
+            <div id="def" class="service w-20 text-center">
+                <div id="abc" class="service-icon fs-30px mb-10px">
+                    <i class="fa-solid fa-folder-closed"></i>
+                </div>
+                <div class="service-content">
+                    <div class="service-title p-5px font-bold">Easy Return Policy
+                    </div>
+                    <p class="service-desc m-0">If goods have problems.</p>
+                </div>
+            </div>
+            <div class="service w-20 text-center">
+                <div class="service-icon fs-30px mb-10px">
+                    <i class="fa-solid fa-message"></i>
+                </div>
+                <div id="support" class="service-content">
+                    <div class="service-title p-5px font-bold">Customer Service
+                    </div>
+                    <p class="service-desc m-0">We support online all days.</p>
+                </div>
+            </div>
+            <div id="member" class="service w-20 text-center">
+                <div class="service-icon fs-30px mb-10px">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <div class="service-content">
+                    <div id="order" class="service-title p-5px font-bold">Member Discount
+                    </div>
+                    <p class="service-desc m-0">On every order over $120.</p>
+                </div>
+            </div>
+        </div>
+        <!-------------------------/Service Container-------------------------->
+        <!------------------------------ Catagories-Container------------------->
+        <div id="women" class="d-flex justify-content-space-between catagories-container w-100">
+            <div class="catagory p-r w-25">
+                <img src="image/bag.jpg">
+                <button class="p-r catagory-button f-weight b-primery m-a w-80 b-20 var(--primery-background)"
+                    type="button">Women Bags</button>
+            </div>
+            <div class="catagory p-r w-25">
+                <img src="image/clothes.jpg">
+                <button class="p-r catagory-button f-weight b-primery m-a w-80 b-20 var(--primery-background)"
+                    type="button">Women Clothes</button>
+            </div>
+            <div class="catagory p-r w-25">
+                <img src="image/shoes.jpg">
+                <button class="p-r catagory-button f-weight b-primery m-a w-80 b-20 var(--primery-background)"
+                    type="button">Sneaker Shoes</button>
+            </div>
+            <div class="catagory p-r w-25">
+                <img src="image/glasses.jpg">
+                <button class="p-r catagory-button f-weight b-primery m-a w-80 b-20 var(--primery-background)"
+                    type="button">Men Sunglasses</button>
+            </div>
+        </div>
+        <!-- ---------------------------/Catagories-Container------------------- -->
+        <div class="d-flex justify-content-space-between product-section-title w-100">
+            <div class="title w-50">
+                Our Products
+            </div>
+            <button type="button">Featured</button>
+            <button type="button">New Arrivals</button>
+            <button type="button">Best Seller</button>
+        </div>
+        <!-- --------------------------Product Section-------------------------->
+        <div id="jacket" nclass="d-flex products-container w-100 flex-wrap justify-content-space-around">
+            <div class="product p-r">
+                <img class="active w-100 " src="image/jacket.jpg">
+                <img class="non-active w-100 "
+                    src="https://demos.codezeel.com/prestashop/PRS21/PRS210508/24-home_default/hummingbird-printed-t-shirt.jpg">
+                <p class="desc">Bewitched Boutique</p>
+                <p>Black Biker Jacket Women's</p>
+                <p class="price">$47.00</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color ">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/brown-bear-printed-sweater.jpg">
+                <img class="non-active w-100 " src="image/regular-shirt.jpg">
+                <p class="desc">catwalk Clothing</p>
+                <p>Cherokee Boy's Regular Shirt</p>
+                <p class="price"><span class="strike">$58.00</span> $51.04</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="offer danger">-12%</div>
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/the-best-is-yet-to-come-framed-poster.jpg">
+                <img class="non-active w-100 " src="image/truckerjacket.jpg">
+                <p class="desc"> Fashion</p>
+                <p>Black Denim Trucker Jacket</p>
+                <p class="price">$76.00</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/classic jacket.jpg">
+                <img class="non-active w-100 " src="image/jacket.jpg">
+                <p class="desc">Jelly Kelly</p>
+                <p>Classic Jacket In White and Black</p>
+                <p class="price"><span class="strike">$69.00 </span>$64.17</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories  p-a">
+                    <div class="offer danger">-7%</div>
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/windbreaker jacket.jpg">
+                <img class="non-active w-100 " src="image/jacket.jpg">
+                <p class="desc">London Britches</p>
+                <p>Colorblock Windbreaker Jacket </p>
+                <p class="price">$94.00</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories  p-a">
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/mug-the-best-is-yet-to-come.jpg">
+                <img class="non-active w-100 " src="image/polo-shirt.jpg">
+                <p class="desc">Modern Walk</p>
+                <p>Grey Solid Polo T-Shirt
+                </p>
+                <p class="price">$48.00</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="change opacity-0 secondary-color">New</div>
+                    <div class="p-a sold opacity-0">SOLOD OUT</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/regular-shirt.jpg">
+                <img class="non-active w-100 " src="image/hooded sweatshirt.jpg">
+                <p class="desc">Sunglow Fashion
+                </p>
+                <p>Koton Polo T-Shirt Gr</p>
+                <p class="price">$86.00</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/polo-shirt.jpg">
+                <img class="non-active w-100 " src="image/t-shirt gray.jpg">
+                <p class="desc">Sunglow Fashion</p>
+                <p>Linen Shirt Plain Olive</p>
+                <p class="price"><span class="strike">$67.00 </span>$56.95</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul class="padding-0 m-0">
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/militry-jacket.jpg">
+                <image class="non-active w-100 " src="image/linen-shirt.jpg">
+                    <p class="desc">Modern Walk</p>
+                    <p>Lisa Charm Daisy Sports</p>
+                    <p class="price">$78.00</p>
+                    <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                        <ul class="padding-0 m-0">
+                            <li><i class="fa-regular fa-heart"></i></li>
+                            <li><i class="fa-solid fa-repeat"></i></li>
+                            <li><i class="fa-solid fa-maximize"></i></li>
+                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                        </ul>
+                    </div>
+                    <div class="type-accessories p-a">
+                        <div class="offer danger">-15%</div>
+                        <div class="change opacity-0 secondary-color">New</div>
+                    </div>
+            </div>
+            <div class="product p-r">
+                <img class="active w-100 " src="image/brown-bear-cushion.jpg">
+                <img class="non-active w-100 " src="image/lisa charm.jpg">
+                <p class="desc">Porcelain Apparel</p>
+                <p>Hooded Sweatshirt True</p>
+                <p class="price">$45.00</p>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------/Product Section---------------------------->
+        <div class="text-center">
+            <button class="button">All Products</button>
+        </div>
+        <div id="casual" class="d-flex banner-container">
+            <div class="p-r banner">
+                <img src="image/casul-t-shirt.jpg">
+                <div class="banner-content w-50 f-weight-500 p-a">
+                    <p class="banner-discount">Flat 20% Discount</p>
+                    <p class="banner-title m-0">Mens Casual</p>
+                    <p class="banner-title m-0">Style T-Shirt</p>
+                    <p class="banner-price">Starting At <span class="banner-dollar color-danger">$59.00</span></p>
+                    <p class="banner-link"><a href="">Shop Now</a> </p>
+                </div>
+            </div>
+            <div class="p-r banner">
+                <img src="image/women-dres.jpg">
+                <div class="banner-content w-50 f-weight-500 p-a">
+                    <p class="banner-discount">Flat 30% Discount</p>
+                    <p class="banner-title m-0">Buy White Dress</p>
+                    <p class="banner-title m-0">For Women</p>
+                    <p class="banner-price">Starting At <span class="color-danger">$48.00</span></p>
+                    <p class="banner-link"><a href="">Shop Now</a> </p>
+                </div>
+            </div>
+            <div class="p-r banner">
+                <img src="image/women-t-shirt.jpg">
+                <div class="banner-content w-50 f-weight-500 p-a">
+                    <p class="banner-discount">Flat 30% Discount</p>
+                    <p class="banner-title m-0">Latest Women</p>
+                    <p class="banner-title m-0">T-Shirt & Pant</p>
+                    <p class="banner-price">Starting At <span class="color-danger">$39.00</span></p>
+                    <p class="banner-link"><a href="">Shop Now</a> </p>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------/Banner Container--------------------------->
+    </div>
+    <!-- --------------------------Main Banner--------------------------->
+    <div class="p-r main-banner">
+        <img src="image/parallax_img.jpg">
+        <div class="p-a deals-On text-center">
+            <p class="Collection">New Clostich Collection</p>
+            <p class=Holiday>Holiday Deals On</p>
+            <p class=Holiday>Fashion Clothes</p>
+            <button class="view">View Collection</button>
+        </div>
+        <div class="offers">
+            <marquee behavior="scroll" loop="infinite" scrollamount="13">
+                <ul>
+                    <li>FIRST TIME FREE DELEVERY IN USA</li>
+                    <li>FIRST TIME FREE DELEVERY IN US</li>
+                    <li>SUMMER LOOKBOK FLASH SALE 70% OFF</li>
+                    <li>20% OFF EVERYTHING FOR WOMAN</li>
+            </marquee>
+            </ul>
+        </div>
+    </div>
+    <!-- --------------------------/Main Banner--------------------------->
+
+    <!-- --------------------------Main Container--------------------------->
+    <div class="main-container w-90 over-flow-hidden test">
+        <div class="day-deal">
+            <div> Deal Of The Day</div>
+        </div>
+        <div id="active" class="economical-offers">
+            <div class="p-r clothing">
+                <img class="active w-100 " src="image/mountain-fox-vector-graphics.jpg">
+                <img class="non-active w-100 " src="image/hooded sweatshirt.jpg">
+                <div class="counter b-primery p-a">
+                    <div>
+                        669
+                        <div>Days</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Hrs</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Min</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        50
+                        <div>Sec</div>
+                    </div>
+                </div>
+                <div class="offer-content">
+                    <p class="catwalk">catwalk Clothing</p>
+                    <p class="catwalk">Perfecrt Weight Fleece Hoodie</p>
+                    <p class="price-content"><span class="strike">$92.00 </span>$84.64</p>
+                </div>
+                <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                    <ul>
+                        <li><i class="fa-regular fa-heart"></i></li>
+                        <li><i class="fa-solid fa-repeat"></i></li>
+                        <li><i class="fa-solid fa-maximize"></i></li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
+                    </ul>
+                </div>
+                <div class="type-accessories p-a">
+                    <div class="offer danger">-12%</div>
+                    <div class="change opacity-0 secondary-color">New</div>
+                </div>
+            </div>
+            <div class="p-r clothing">
+                <img class="active w-100 " src="image/jacket.jpg">
+                <img class="non-active w-100 " src="image/classic jacket.jpg">
+                <div class="counter b-primery p-a">
+                    <div>
+                        669<div>Days</div>
+                    </div>
+                    <div>:</div>
+                    <div>
+                        09<div>Hrs</div>
+                    </div>
+                    <div>:</div>
+                    <div>
+                        09<div>Min</div>
+                    </div>
+                    <div>:</div>
+                    <div>
+                        50<div>Sec</div>
+                    </div>
+                </div>
+                <div class="offer-content">
+                    <p class="catwalk">Jelly Kelly</p>
+                    <p class="fleece-hoodie">Classic Jacket</p>
+                    <p class="price-content"><span class="strike">$69.00 </span>$64.17</p>
+                    <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                        <ul>
+                            <li><i class="fa-regular fa-heart"></i></li>
+                            <li><i class="fa-solid fa-repeat"></i></li>
+                            <li><i class="fa-solid fa-maximize"></i></li>
+                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                        </ul>
+                    </div>
+                    <div class="type-accessories p-a">
+                        <div class="offer danger">-12%</div>
+                        <div class="change secondary-color opacity-0">New</div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-r clothing">
+                <img class="non-active w-100 " src="image/linen-shirt.jpg">
+                <img class="active w-100 " src="image/militry-jacket.jpg">
+                <div class="counter b-primery p-a">
+                    <div>
+                        669
+                        <div>Days</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Hrs</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Min</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        50
+                        <div>Sec</div>
+                    </div>
+                </div>
+                <div class="offer-content">
+                    <p class="catwalk">Sunglow Fashion</p>
+                    <p class="fleece-hoodie">Linen Shirt Plain Olive</p>
+                    <p class="price-content"><span class="strike">$67.00 </span>$56.95</p>
+                    <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                        <ul>
+                            <li><i class="fa-regular fa-heart"></i></li>
+                            <li><i class="fa-solid fa-repeat"></i></li>
+                            <li><i class="fa-solid fa-maximize"></i></li>
+                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                        </ul>
+                    </div>
+                    <div class="type-accessories p-a">
+                        <div class="offer danger">-12%</div>
+                        <div class="change opacity-0 secondary-color">New</div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-r clothing">
+                <img class="active w-100 " src="image/hummingbird-vector-graphics.jpg">
+                <img class="non-active w-100 " src="image/long-sleve.jpg">
+                <div class="counter b-primery p-a">
+                    <div>
+                        669
+                        <div>Days</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Hrs</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Min</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        50
+                        <div>Sec</div>
+                    </div>
+                </div>
+                <div class="offer-content">
+                    <p class="catwalk">Jelly Kelly</p>
+                    <p class="fleece-hoodie">Printed V Neck Long Sleeve</p>
+                    <p class="price-content"><span class="strike">$67.00 </span>$55.00</p>
+                    <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                        <ul>
+                            <li><i class="fa-regular fa-heart"></i></li>
+                            <li><i class="fa-solid fa-repeat"></i></li>
+                            <li><i class="fa-solid fa-maximize"></i></li>
+                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                        </ul>
+                    </div>
+                    <div class="  type-accessories p-a">
+                        <div class="offer danger">-12%</div>
+                        <div class="change opacity-0 secondary-color">New</div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-r clothing">
+                <img class="active w-100" src="image/linen-shirt.jpg">
+                <img class="non-active w-100 " src="image/militry-jacket.jpg">
+                <div class="counter b-primery p-a">
+                    <div>
+                        669
+                        <div>Days</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Hrs</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        09
+                        <div>Min</div>
+                    </div>
+                    <div>
+                        :
+                    </div>
+                    <div>
+                        50
+                        <div>Sec</div>
+                    </div>
+                </div>
+                <div class="offer-content">
+                    <p class="Sunglow">Sunglow Fashion</p>
+                    <p class="fleece-hoodie">Vience Women's Military Jacket</p>
+                    <p class="price-content"><span class="strike">$57.00 </span>$52.44.64</p>
+                    <div class="p-a whishlist-button opacity-0 top-0 l-s-none primery-color">
+                        <ul>
+                            <li><i class="fa-regular fa-heart"></i></li>
+                            <li><i class="fa-solid fa-repeat"></i></li>
+                            <li><i class="fa-solid fa-maximize"></i></li>
+                            <li><i class="fa-solid fa-bag-shopping"></i></li>
+                        </ul>
+                    </div>
+                    <div class="type-accessories p-a">
+                        <div class="offer danger">-12%</div>
+                        <div class="change opacity-0 secondary-color">New</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-r new-fashion w-100">
+            <img src="image/cms-banner.jpg">
+            <div class="p-a items w-50">
+                <p id="original"class="orginal">100% Original Products</p>
+                <p class="Fashion">The All New Fashion</p>
+                <p class="Fashion">Collection Items</p>
+                <p class="this-month">This Month From <span>$59.00</span></p>
+                <button class="shop shop-sec">Shop Now</button>
+            </div>
+        </div>
+        <div class="coat">
+            <div class="comma">
+                <i class="fa-solid fa-quote-left"></i>
+            </div>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quam, aliquid
+                delectus dolores officiis in deserunt, dignissimos commodi sunt architecto veniam modi magni. Soluta
+                quod vitae repellat necessitatibus fuga magnam, laborum nulla reiciendis dicta molestiae expedita
+                consequatur nemo dolor est amet repellendus, eaque, laboriosam odio quas in. Sequi, magnam nihil.
+            </p>
+        </div>
+        <div class="name">Mack Jeckno</div>
+        <div class="Sub-heading">(Webdesigner)</div>
+        <div class="blog">Our Latest Blog</div>
+        <div class="latest-blog">
+            <div class="blog-item">
+                <img src="image/b-blog-7.jpg">
+                <div class="blog-content">
+                    <p class="date">September 5, 2023</p>
+                    <p  id="september" class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div id="blog" class="blog-item">
+                <img src="image/b-blog-6.jpg">
+                <div class="blog-content">
+                    <p class="date">September 3, 2023</p>
+                    <p class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="image/b-blog-5.jpg">
+                <div class="blog-content">
+                    <p class="date">September 1, 2023</p>
+                    <p class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="image/b-blog-4.jpg">
+                <div class="blog-content">
+                    <p class="date">September 18, 2023</p>
+                    <p class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------/Main Container--------------------------->
+
+    <div class="mini-banners">
+        <img src="image/1.jpg">
+        <img src="image/2.jpg">
+        <img src="image/3.jpg">
+        <img src="image/4.jpg">
+        <img src="image/5.jpg">
+        <img src="image/6.jpg">
+        <img src="image/2.jpg">
+    </div>
+
+    <!-- --------------------------Iformation--------------------------->
+    <div class="information over-flow-hidden">
+        <footer class="details">
+            <div class="options">
+                <h2 class="info">Store Information</h2>
+                <ul class="Apparel">
+                    <span>
+                        <li><i class="fa-solid fa-location-dot"></i>Clostich - Apparel & Clothing Store
+                            507-Union Trade Centre
+                            123456
+                            France</li>
+                    </span>
+                    <span><i class="fa-regular fa-envelope"></i>
+                        <li>sales@yourcompany.com</li>
+                    </span>
+                    <li><i class="fa-solid fa-headset"></i>(+91) 9876-543-210</li>
+                </ul>
+                <div>
+                    <ul class="d-flex signs social footer-social-icons p-0">
+                        <li class="l-s-none"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-youtube"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-pinterest-p"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="options">
+                <h2 class="info">Products</h2>
+                <ul class="Apparel">
+                    <li><i class="fa-solid fa-arrow-right"></i>Prices drop</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>New products</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Best sales</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>France</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Contact us</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Sitemap
+                    <li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Stores</li>
+                </ul>
+            </div>
+            <div class="options">
+                <h2 class="info">Our company</h2>
+                <ul class="Apparel">
+                    <li><i class="fa-solid fa-arrow-right"></i>Delivery</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Legal Notice</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Terms and conditions of use</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>About us</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Secure payment</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> My account</li>
+                </ul>
+            </div>
+            <div class="options">
+                <h2 class="info">Subscribe Our Newsletter</h2>
+                <ul class="Apparel">
+                    <li>Subscribe to our latest newsletter to get news about special discounts</li>
+                    <li><button class="sub">Subscribe</button></li>
+                    <li>
+                        <input type="checkbox" checked="checked">
+                        I agree to the terms and conditions and the privacy policy
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+        <div class="privacy">
+            <span class="cookies"> This site uses cookies. By continuing use this site, you are agreeing to our use of
+                cookies.</span>
+            <a href="#">Privacy Policy</a>
+            <button class="accept">Accept</button>
+        </div>
+    </div>
+    <script src="domtargeting.js"></script>
+    <!-- --------------------------/Information--------------------------->
+</body>
+
+</html>

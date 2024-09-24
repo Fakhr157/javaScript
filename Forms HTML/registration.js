@@ -18,7 +18,6 @@ function onSubmit(event) {
     myData.urdu = document.getElementById("pushto").checked;
     myData.male = document.getElementById("male").checked;
     myData.female = document.getElementById("female").checked;
-
     myData.dropdown = document.getElementById("dropdown").value;
     console.log(myData);
 
