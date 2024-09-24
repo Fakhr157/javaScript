@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html id="main" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clostich</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+</head>
+
+<body>
+
+    <!----------------------TOP HEADER SECTION -------------------------->
+    <div class="top-header">
+        <div class="support">
+            <i class="fa-regular fa-envelope"></i><span>Support</span>
+            <span>|</span>
+            <i class="fa-solid fa-globe"></i><span>Store Location</span>
+        </div>
+        <div class="season-offer">
+            <span class="offer-text">Summer Sale Season Up To 25% OFF -</span>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="language">
+            <span>English</span>
+            <span>|</span>
+            <span>USD</span>
+        </div>
+    </div>
+    <!----------------------MENU SECTION -------------------------->
+    <div  class="p-r mb-view">
+        <button id="show" class="p-a show-buttons"><i class="fa-solid fa-bars"></i></button>
+        <nav class="d-flex menu-section align-items-enter w-100 b-primery justify-content-space-around position-sticky">
+            <button class="hide-button"><i id="hide" class="fa-solid fa-xmark"></i></button>
+            <span class="logo font-bold">
+                <a class="text-dec-none primery-color " href="#">Clostich</a>
+            </span>
+            <ul class="d-flex menu list-style-none">
+                <li><a class="text-dec-none primery-color" href="#">Fashion</a></li>
+                <li><a class="text-dec-none primery-color" href="accessories.html">Accessories</a></li>
+                <li><a class="text-dec-none primery-color" href="#">Contact Us</a></li>
+                <li><a class="text-dec-none primery-color" href="about-us.html">About Us</a></li>
+                <li><a class="text-dec-none primery-color" href="#">All Brands</a></li>
+                <li><a class="text-dec-none primery-color" href="#">Blog</a></li>
+            </ul>
+            <ul class="d-flex signs">
+                <li class="l-s-none"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="l-s-none"><i class="fa-regular fa-user"></i></li>
+                <li class="l-s-none"><i class="fa-regular fa-heart"></i></li>
+                <li class="l-s-none"><i class="fa-sharp fa-solid fa-bag-shopping"></i></li>
+                <li class="l-s-none">$ 0.00</li>
+            </ul>
+        </nav>
+    </div>
+    <!----------------------/MENU SECTION -------------------------->
+  
+    <!-- --------------------------Main Container--------------------------->
+    <div class="main-container w-90 over-flow-hidden test">
+        
+        
+        <div class="latest-blog">
+            <div class="blog-item">
+                <img src="image/b-blog-7.jpg">
+                <div class="blog-content">
+                    <button onclick="nextChild()">Next Sibling</button>
+                    <p class="date">September 5, 2023</p>
+                    <p  id="september" class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div id="blog" class="blog-item">
+                <img src="image/b-blog-6.jpg">
+                <div class="blog-content">
+                    <p class="date">September 3, 2023</p>
+                    <p class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="image/b-blog-5.jpg">
+                <button onclick="prevChild()">Previous Sibling</button>
+                <div class="blog-content">
+                    <p  class="date">September 1, 2023</p>
+                    <p class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p id="Provident" class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="image/b-blog-4.jpg">
+                <div class="blog-content">
+                    <p class="date">September 18, 2023</p>
+                    <p class="title">Nullam ullamcorper Ornare Molestie</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,veniam.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------/Main Container--------------------------->
+
+    <div class="mini-banners">
+        <img src="image/1.jpg">
+        <img src="image/2.jpg">
+        <img src="image/3.jpg">
+        <img src="image/4.jpg">
+        <img src="image/5.jpg">
+        <img src="image/6.jpg">
+        <img src="image/2.jpg">
+    </div>
+
+    <!-- --------------------------Iformation--------------------------->
+    <div class="information over-flow-hidden">
+        <footer class="details">
+            <div class="options">
+                <h2 class="info">Store Information</h2>
+                <ul class="Apparel">
+                    <span>
+                        <li><i class="fa-solid fa-location-dot"></i>Clostich - Apparel & Clothing Store
+                            507-Union Trade Centre
+                            123456
+                            France</li>
+                    </span>
+                    <span><i class="fa-regular fa-envelope"></i>
+                        <li>sales@yourcompany.com</li>
+                    </span>
+                    <li><i class="fa-solid fa-headset"></i>(+91) 9876-543-210</li>
+                </ul>
+                <div>
+                    <ul class="d-flex signs social footer-social-icons p-0">
+                        <li class="l-s-none"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-youtube"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-pinterest-p"></i></li>
+                        <li class="l-s-none"><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="options">
+                <h2 class="info">Products</h2>
+                <ul class="Apparel">
+                    <li><i class="fa-solid fa-arrow-right"></i>Prices drop</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>New products</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Best sales</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>France</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Contact us</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Sitemap
+                    <li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Stores</li>
+                </ul>
+            </div>
+            <div class="options">
+                <h2 class="info">Our company</h2>
+                <ul class="Apparel">
+                    <li><i class="fa-solid fa-arrow-right"></i>Delivery</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> Legal Notice</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Terms and conditions of use</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>About us</li>
+                    <li><i class="fa-solid fa-arrow-right"></i>Secure payment</li>
+                    <li><i class="fa-solid fa-arrow-right"></i> My account</li>
+                </ul>
+            </div>
+            <div class="options">
+                <h2 class="info">Subscribe Our Newsletter</h2>
+                <ul class="Apparel">
+                    <li>Subscribe to our latest newsletter to get news about special discounts</li>
+                    <li><button class="sub">Subscribe</button></li>
+                    <li>
+                        <input type="checkbox" checked="checked">
+                        I agree to the terms and conditions and the privacy policy
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+        <div class="privacy">
+            <span class="cookies"> This site uses cookies. By continuing use this site, you are agreeing to our use of
+                cookies.</span>
+            <a href="#">Privacy Policy</a>
+            <button class="accept">Accept</button>
+        </div>
+    </div>
+    <script src="./sibling.js"></script>
+    <!-- --------------------------/Information--------------------------->
+</body>
+
+</html>

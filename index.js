@@ -103,18 +103,10 @@ element=document.getElementById("top");
 // element.classList.length;
 // console.log(element.classList.length)
 
-element=document.getElementById("test");
-
-// let singleclass=classlist[1];
-// console.log(singleclass)
-element.classList.add("def","ghq");
-// element.classList.length;
-let classlist = element.classList;
 
 
-// element=document.getElementById("test");
-element.classList.remove("abc");
-element.classList = "rayyan"
+
+
 
 
 let innerHtml=element.innerHTML;
