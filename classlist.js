@@ -1,15 +1,15 @@
 
-
-// let element = document.getElementById("addclass");
-// element.classList.add("abc");
-// console.log(element)
-
-
-
-let element = document.getElementById("addclass");
-element.classList.remove("XYZ");
+function classadd(){
+let element = document.getElementById("add");
+element.classList.add("addclass");
 console.log(element)
+}
 
+function XYZ(){
+let element = document.getElementById("add");
+element.classList.remove("addclass");
+console.log(element)
+}
 
 
 

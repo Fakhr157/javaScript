@@ -27,7 +27,7 @@ function targeturl() {
 }
 
 function targetelementtag() {
-  let element = document.getElementsByTagName("div");
+  let element = document.getElementsByTagName("div")[4][0];
   console.log(element);
 }
 

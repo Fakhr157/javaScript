@@ -10,6 +10,7 @@ function welcomeTheUser(){
 
    firstname.value='';
    lastname.value='';
+  
 }
 
 // function welcomeTheUseddddr(){
