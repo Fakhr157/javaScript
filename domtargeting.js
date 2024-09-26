@@ -27,8 +27,10 @@ function targeturl() {
 }
 
 function targetelementtag() {
-  let element = document.getElementsByTagName("div")[4][0];
-  console.log(element);
+  let element = document.getElementsByTagName("div")[4];
+  console.log(element.children[0]);
+
+  console.log(element.getElementsByTagName("button"));
 }
 
 function targetelementclass() {
