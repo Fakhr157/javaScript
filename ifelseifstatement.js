@@ -1,6 +1,6 @@
 
 
-  var per = 25;
+  var per = prompt("Enter your percentage:");
 
   if (per >= 80 && per <= 100){
     document.write("You are in merit.");
