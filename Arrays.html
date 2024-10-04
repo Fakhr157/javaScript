@@ -41,30 +41,30 @@
     // document.write("</ul>");
     // document.write("Total Sum : " + sum);
 
-    var array = [
-        {name:"Ali", age:23, gender:'Male', address:'Islamabad'},
-        {name:"Ibrar", age:30, gender:'Male', address:'Peshawar'},
-        {name:"Majeed", age:18, gender:'Male', address:'Karachi'},
-        {name:"Zia", age:20, gender:'Male', address:'Faisalabad'},
-        {name:"Abbas", age: 25, gender: 'Male', address:'Karachi'},
-        {name:"Sara", age:22, gender:'Female', address:'Lahore'},
-        {name:"Sahil", age:28, gender:'Male', address:'Multan'},
-        {name:"Sami", age:24, gender:'Female', address:'Peshawar'},
-        {name:"Ayesha", age:26, gender:'Female', address:'Islamabad'},
+    // var array = [
+    //     {name:"Ali", age:23, gender:'Male', address:'Islamabad'},
+    //     {name:"Ibrar", age:30, gender:'Male', address:'Peshawar'},
+    //     {name:"Majeed", age:18, gender:'Male', address:'Karachi'},
+    //     {name:"Zia", age:20, gender:'Male', address:'Faisalabad'},
+    //     {name:"Abbas", age: 25, gender: 'Male', address:'Karachi'},
+    //     {name:"Sara", age:22, gender:'Female', address:'Lahore'},
+    //     {name:"Sahil", age:28, gender:'Male', address:'Multan'},
+    //     {name:"Sami", age:24, gender:'Female', address:'Peshawar'},
+    //     {name:"Ayesha", age:26, gender:'Female', address:'Islamabad'},
         
-    ];
-    document.write("<table border = '1'>");
-    document.write("<tr><th>S.No</th><th>Names</th><th>Age</th><th>Gender</th><th>Address</th></tr>");
+    // ];
+    // document.write("<table border = '1'>");
+    // document.write("<tr><th>S.No</th><th>Names</th><th>Age</th><th>Gender</th><th>Address</th></tr>");
 
-    for(var a = 0;  a <array.length; a=a+1){
-        document.write("<tr><td>" + (a + 1)  + "</td><td>" + array[a].name + "</td><td>" + array[a].age + "</td><td>" + array[a].gender + "</td><td>" + array[a].address + "</td></tr>");
-    }
+    // for(var a = 0;  a <array.length; a=a+1){
+    //     document.write("<tr><td>" + (a + 1)  + "</td><td>" + array[a].name + "</td><td>" + array[a].age + "</td><td>" + array[a].gender + "</td><td>" + array[a].address + "</td></tr>");
+    // }
 
-    document.write("</table>");
+    // document.write("</table>");
 
 
 var  array = [
-     {name:"Mustafa", age: "20", Address:"Multan"},
+     {name:"Mustafa",salePrice:10, price: 20, imgUrl:"Multan"},
      {name:"Sara", age: "25", Address:"karachi"},
      {name:"Ali", age: "24", Address:"Rawalpindi"},
      {name:"Jahingir", age: "26", Address:"Quetta"},
@@ -74,11 +74,12 @@ var  array = [
 
 ];
 
-documnet.write("<table border = '1'>");
+document.write("<table>");
 
     document.write("<tr><th>S.No</th><th>Name</th><th>Age</th><th>Address</th></tr>");
   for(var a = 0;  a < array.length; a = a+1){
-    docuemnt.write("<tr><td>" + (a + 1) + "</td><td>" + array[a].name + "</td><td>" + array[a].age + "</td><td>" + "</td><td>" + array[a].address + "</td></tr>")
+    document.write('<div><img src="'+arry[a].imgUrl+'"><small>'+array[a].salePrice+'</small><small class="strike">'+array[a].price+'</small><p><p></div>')
+   // document.write("<tr><td>" + (a + 1) + "</td><td>" + array[a].name + "</td><td>" + array[a].age + "</td><td>" + "</td><td>" + array[a].Address + "</td></tr>")
   };
 
 document.write("</table>");
