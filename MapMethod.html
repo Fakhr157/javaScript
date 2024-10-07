@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method</title>
+    <script>
+       var ary = [
+        {fname:"Muhamad", age: 29,  City:"Lahore"},
+        {fname:"Shabir", age: 29,  City:"Lahore"},
+        {fname:"Rizwan", age: 29,  City:"Lahore"},
+        {fname:"Sohail", age: 29,  City:"Lahore"},
+        {fname:"Saeed", age: 29,  City:"Lahore"}
+
+       ];
+        var b = ary.map(test);
+        document.write(b);
+
+       function test(x){
+        return x.fname + " " + x.age + "<br>";
+       }
+
+
+       var b = [11,15,19,20];
+       document.write(b);
+     
+        var c = b.map(square);
+        document.write(c);
+
+        function square(a){
+            return a * 10 + "  " + "<br><br>";
+        // document.write(b);
+
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
