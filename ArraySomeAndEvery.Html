@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Some And Every</title>
+    <script>
+
+
+
+var ages = [100,150,20,30,];
+
+document.write(ages + "<br><br>")
+
+var b = ages.some(checkAdult);
+
+document.write(b + "<br><br>");
+
+function checkAdult(age){
+    return age >= 18;
+}
+
+var c = ages.every(checkAdult);
+// document.write(c + "<br><br>");
+
+var d = [10,15,20,30,]
+
+document.write(d + "<br><br>");
+
+var e = d.every(checkAdult);
+
+
+document.write(e + "<br><br>");
+
+function checkAdult(age){
+    return age >=18
+}
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

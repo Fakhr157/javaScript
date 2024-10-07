@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <script>
+        var a = [20,15,18,30];
+
+        document.write(a + "<br><br>");
+
+    var b = a.filter(checkAdults);
+    document.write(b + "<br><br>");
+
+    function checkAdults(age){
+        return age >= 18;
+    }
+
+
+var d = [15,25,35,18,19,13];
+
+document.write(d+ "<br><br>");
+
+var e = d.filter(checkAdult);
+
+
+function checkAdult(age){
+    return age >= 18;
+    
+}
+document.write(e + "<br><br>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

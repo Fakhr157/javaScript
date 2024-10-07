@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+    <script>
+        var a = {
+            fname : 'Fakhre',
+            lname : 'Alam',
+            city: 'Islamabad',
+            age : 30,
+            country: 'pakistan',
+            names:['Ahmad', 'Alam','Iqbal','Waseem'],
+            fullname:function (){
+                return this.fname + ' ' + this.lname ;
+            }, 
+           countries:{
+            'Pakistan': 'Islamabad',
+            'India' : 'Mumbai',
+            'USA' : 'Washington'
+
+           }
+        }
+       
+        console.log(a);
+        document.write(a.countries.Pakistan);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

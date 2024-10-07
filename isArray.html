@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Array</title>
+    <script>
+
+        var a = ["Sumbal","Aysha","Maria","Maham"]
+        document.write(a +"<br><br>");
+        var b = Array.isArray(a);
+        document.write(b + "<br><br>");
+
+        var c = 10;
+        document.write(c + "<br><br>");
+
+        var d = Array.isArray(c);
+        document.write(d + "<br><br>");
+
+        var e = ["Sumbal","Aysha","Maria","Maham"];
+
+        if(Array.isArray(e)){
+            document.write("Yes this is array");
+        }else{
+            document.write("No this is not array");
+        }
+document.write("<br><br>");
+        var f = 10;
+
+        if(Array.isArray(f)){
+            document.write("Yes this is array")
+        }else{
+            document.write("No this is not array")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
