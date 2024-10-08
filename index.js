@@ -86,7 +86,7 @@ function red(){
     document.getElementById("top").style.background ="red";
 };
 element=document.getElementsByClassName('top-header');
-element[0].innerHTML="<div>My name is Fakhar</div>";
+element[0].innerHTML="<div>My name is Alam</div>";
 console.log(element)
 
 // element.document.getElementById("top")
@@ -140,3 +140,13 @@ element.getAttributetes
 
 element=document.getElementById("main").parentElement;
 console.log(element)
+
+
+
+
+document.getElementById("top").addEventListener("click",def);
+
+
+function def(){
+    document.getElementById("top").style.background= "crimson";
+}
