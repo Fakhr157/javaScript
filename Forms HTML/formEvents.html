@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Events</title>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" id="fname" onfocus="focusfunction(this)" onblur="blurFunction(this)" oninput="inputfunction(this)" onchange="changeFunction(this)" onselect="selectfunction(this)"> <br><br>
+
+        <label for="">Class</label>
+        <input type="text" id="" onfocus="focusfunction(this)" onblur="blurFunction(this)" oninput="inputfunction(this)" onchange="changeFunction(this)"> <br><br>
+        <label for="">Country</label>
+
+        <select id="" onfocus="focusfunction(this)" onblur="blurFunction(this)" onchange="changeFunction(this)">
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="Bangladish">Bangladish</option>
+            <option value="China">China</option>
+            <option value="Srilanka">Srilanka</option>
+        </select>
+    </form>
+    <br>
+    <div id="test" style ="border: 1px solid red"></div>
+    <script src="./formEvents.js"></script>
+</body>
+
+</html>
