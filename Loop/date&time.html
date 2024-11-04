@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+         var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
+let dateString = "1-11-2024"; // your date in "dd-mm-yyyy" format
+let [day, month, year] = dateString.split("-"); // split the string by "-"
+
+let now = new Date(`${year}-${month}-${day}`); // construct a date in "yyyy-mm-dd" format
+console.log(now); // Thu Oct 31 2024...
+
+
+
+
+
+
+    // var now = new Date().getTime(2024,10,31);
+    // console.log(now)
+    // var hour = now.getHours();
+    // var minute = now.getMinutes();
+    // var second = now.getSeconds();
+    //
+    // var prepand = (hour> 12 ) ? "PM" : "AM";
+    // hour = (hour >= 12)? hour-12 : hour;
+  
+
+    // document.write("Today is " + daylist[now.getDay()] + "<br><br>");
+    // document.write("Current Time is: " + hour + ":" + minute + " :" + second);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -61,9 +61,78 @@
         if (num1 > num2){
          document.write("The number is less ")
         }else{
-            document.write("The number is greater")
+            document.write("The number is greater" + "<br><br>")
         }
+         var score = 85;
+         var grades ;
+         if (score>=90){
+            grade = "A";
+         }else if (score>=80){
+            grade = "B";
+         }else if (score>=70){
+            grade = "C";
+         }else if (score>=60){
+            grade = "D";
+         }else {
+            grade = "F";
+         }
+         document.write("Grade:" + grade + "<br><br>");
 
+         var age = 25;
+         var ticketPrice ;
+         if (age < 12){
+            ticketPrice = 5;
+         }else if (age >=12 && age < 18){
+            ticketPrice = 10;
+         } else if (age >= 18 && age < 60){
+            ticketPrice = 20;
+         }else ticketPrice = 15;
+         document.write("TicketPrice: $" + ticketPrice + "<br><br>");
+
+         var year = 2024 ;
+         if (year % 4 === 0 && (year % 100 !==0 || year % 400 === 0)){
+            document.write(year + " is a leap year.");
+         } else {
+            document.write(year + " is not a leap year.");
+         }
+         
+         var purchasePrice = 0;
+         var discount ;
+
+         if (purchasePrice >=100){
+            discount = 20;
+         }else if (purchasePrice >=50){
+            dicount = 10;
+         } else {
+            discount = 0;
+         }
+         console.log("Discount : " + discount + "%");
+         
+          var weight = 70;
+          var height = 1.75; 
+          var bmi = weight / (height * height);
+          var catagory;
+         if (bmi < 18.5){
+            catagory = "Underweight";
+         }else if (bmi <24.9){
+            cartagory = "Normalweight";
+         }else if (bmi<29.9){
+            catagory = "Overweight";
+         }else {
+            catagory = "obese";
+         }
+         document.write("BMI :" + bmi.toFixed(2) );
+         console.log("Catagory: " + catagory);
+
+        var secreteNumber = 7 ;
+        var guess = 5;
+        if (guess===secreteNumber){
+            console.log("Congragulations! You gussed the correct number.")
+        }else if (guess < secreteNumber){
+            console.log("Try a higher number.")
+        }else{
+            console.log("Try a lower number.")
+        }
     </script>
 </head>
 <body>
